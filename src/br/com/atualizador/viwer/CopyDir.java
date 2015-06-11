@@ -40,7 +40,6 @@ public class CopyDir {
                 File origemFile = new File(origem, filePath);
                 File destinoFile = new File(destino, filePath);
 
-                System.out.println("teste" + teste);
                 copyFiles(origemFile, destinoFile);
             }
 

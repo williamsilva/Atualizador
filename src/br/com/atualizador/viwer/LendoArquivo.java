@@ -27,14 +27,14 @@ public class LendoArquivo {
             File origem = new File("C:\\Users\\william\\Documents\\NetBeansProjects\\Solutions");
             File destino = new File("C:\\Users\\william\\Google Drive\\Solutions");
             CopyDir.copyFiles(origem, destino);
-            System.exit(0);
-//            try {
-//                
-//                Runtime.getRuntime().exec("java -jar C:\\Users\\william\\Documents\\NetBeansProjects\\Solutions\\dist\\acqua.jar");
-//                System.exit(0);
-//            } catch (IOException ex) {
-//                Logger.getLogger(SpleshScreen.class.getName()).log(Level.SEVERE, null, ex);
-//            }
+            
+            try {
+                
+                Runtime.getRuntime().exec("java -jar C:\\Users\\william\\Documents\\NetBeansProjects\\Solutions\\dist\\acqua.jar");
+                System.exit(0);
+            } catch (IOException ex) {
+                Logger.getLogger(SpleshScreen.class.getName()).log(Level.SEVERE, null, ex);
+            }
 
         }
     }
